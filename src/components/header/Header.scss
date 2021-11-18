@@ -1,0 +1,15 @@
+@import "../../assets/index.scss";
+
+.header {
+    background-color: $color-primary;
+
+    display: flex;
+
+    &__text-box {
+        flex: 0 1 auto;
+    }
+
+    &__hero-box {
+        flex: 0 1 auto;
+    }
+}

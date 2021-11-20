@@ -17,12 +17,89 @@ body {
   font-size: 1.6rem;
 }
 
+.btn-primary, .btn-primary:link, .btn-primary:visited {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #1d222c;
+  background-color: #f2c56d;
+  padding: 1.2rem 2.5rem;
+  font-size: 2.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  -webkit-transform: translateY(-0.3rem);
+          transform: translateY(-0.3rem);
+}
+
+.btn-primary:active, .btn-primary:focus {
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
+}
+
+.btn-secondary:link, .btn-secondary:visited {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #f2c56d;
+  background-color: #1d222c;
+  border: 1px solid #f2c56d;
+  padding: 1.2rem 2.5rem;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  -webkit-transform: translateY(-0.3rem);
+          transform: translateY(-0.3rem);
+  background-color: #f2c56d;
+  color: #1d222c;
+  border: 1px solid #f2c56d;
+}
+
+.btn-secondary:hover .btn-symbol-play {
+  -webkit-filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+          filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+}
+
+.btn-secondary:active, .btn-secondary:focus {
+  -webkit-transform: translateY(-0.1rem);
+          transform: translateY(-0.1rem);
+}
+
+.btn-symbol {
+  -webkit-transform: translate(5px, 2px);
+          transform: translate(5px, 2px);
+  padding: 0.1rem;
+}
+
+.btn-symbol-arr {
+  -webkit-filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+          filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+}
+
+.btn-symbol-play {
+  margin-right: 2rem;
+  -webkit-filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+          filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+}
+
 .navbar {
   position: fixed;
   width: 100%;
   height: 13.1rem;
   background-color: #1d222c;
   border-bottom: 1px solid #343841;
+  z-index: 1000;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 3fr 1fr;
@@ -58,6 +135,7 @@ body {
 }
 
 .navbar__button {
+  cursor: pointer;
   padding-top: 2.2rem;
   height: 5rem;
   display: block;
@@ -175,7 +253,7 @@ body {
 
 .navigation {
   position: fixed;
-  top: 13.1rem;
+  top: -250rem;
   opacity: 0;
   width: 101vw;
   height: calc(100vh - 13.1rem);
@@ -194,6 +272,7 @@ body {
 }
 
 .navigation__navopen {
+  top: 13.1rem;
   opacity: 1;
 }
 

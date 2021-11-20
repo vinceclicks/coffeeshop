@@ -93,50 +93,113 @@ body {
           filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
 }
 
-.header {
-  background-color: #1d222c;
-  height: calc(50vw + 13.1rem);
-  width: 101%;
-  padding-top: 13.1rem;
+.bestintown {
+  padding: 0 5vw;
+  background-color: #252a35;
   position: relative;
-  z-index: 0;
+  width: 100vw;
+  z-index: 1;
+  padding-top: 3rem;
+}
+
+.bestintown__box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 12rem;
+}
+
+.bestintown__textbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
 }
 
-.header__text-box {
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  width: 50%;
-  padding-left: 5vw;
-}
-
-.header__paragraph {
-  width: 80%;
-}
-
-.header__btn-group {
+.bestintown__cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: max-content max-content;
-      grid-template-columns: -webkit-max-content -webkit-max-content;
-      grid-template-columns: max-content max-content;
-  grid-column-gap: 3rem;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 4.5rem;
+  text-align: center;
 }
 
-.header__hero-box {
-  width: 50%;
+.bestintown__card {
+  background-color: #2a2e38;
+  padding: 4rem;
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.header__heroimg {
-  width: 100%;
-  z-index: 0;
-  position: relative;
-  -webkit-transform: translateY(3rem);
-          transform: translateY(3rem);
+.bestintown__card:hover {
+  background-color: #f2c56d;
 }
-/*# sourceMappingURL=Header.css.map */
+
+.bestintown__card:hover .bestintown__circle {
+  background-color: #fff;
+}
+
+.bestintown__card:hover .bestintown__img {
+  -webkit-filter: invert(10%) sepia(4%) saturate(4561%) hue-rotate(184deg) brightness(92%) contrast(83%);
+          filter: invert(10%) sepia(4%) saturate(4561%) hue-rotate(184deg) brightness(92%) contrast(83%);
+}
+
+.bestintown__card:hover h3 {
+  color: #1d222c;
+}
+
+.bestintown__circle {
+  background-color: #1d222c;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bestintown__img {
+  -webkit-filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+          filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+}
+
+.bestintown__tea {
+  margin-left: 1rem;
+}
+
+.bestintown__cap {
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=BestInTown.css.map */

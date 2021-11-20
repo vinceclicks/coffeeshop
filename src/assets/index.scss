@@ -2,14 +2,26 @@
 //COLOR VARIABLES
 
 $color-primary: #1d222c;
+$color-primary-light: #252a35;
+$color-primary-lighter: #2a2e38;
 
 $color-secondary: #f2c56d;
+
+$color-primary-filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+$color-primary-light-filter: invert(10%) sepia(4%) saturate(4561%) hue-rotate(184deg) brightness(92%) contrast(83%);
+
+$color-secondary-filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
 
 ////////////////////////////////////////////////////
 //FONT VARIABLES
 
 $font-primary: "PT Serif", serif; // Substitute for Meta Serif pro;
 $font-secondary: "Open Sans", sans-serif; // Substitute for Avenir LT Std;
+
+////////////////////////////////////////////////////
+//HELPERS
+
+$page-padding: 0 5vw;
 
 ////////////////////////////////////////////////////
 //TOP LEVEL
@@ -31,7 +43,11 @@ body {
     font-size: 1.6rem;
 }
 
+////////////////////////////////////////////////////
+//BUTTONS
+
 .btn-primary {
+    &,
     &:link,
     &:visited {
         font-family: $font-secondary;
@@ -41,6 +57,17 @@ body {
         padding: 1.2rem 2.5rem;
         font-size: 2.1rem;
         display: flex;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+    &:hover {
+        transform: translateY(-0.3rem);
+    }
+
+    &:active,
+    &:focus {
+        transform: translateY(-0.1rem);
     }
 }
 
@@ -55,14 +82,39 @@ body {
         padding: 1.2rem 2.5rem;
         font-size: 2rem;
         display: flex;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+    &:hover {
+        transform: translateY(-0.3rem);
+        background-color: $color-secondary;
+        color: $color-primary;
+        border: 1px solid $color-secondary;
+    }
+
+    &:hover .btn-symbol-play {
+        filter: $color-primary-filter;
+    }
+
+    &:active,
+    &:focus {
+        transform: translateY(-0.1rem);
     }
 }
 
 .btn-symbol {
     transform: translate(5px, 2px);
     padding: 0.1rem;
+}
 
-    &--mr {
-        margin-right: 2rem;
-    }
+.btn-symbol-arr {
+    //1D222C
+    filter: $color-primary-filter;
+}
+
+.btn-symbol-play {
+    margin-right: 2rem;
+    //F2C56D
+    filter: $color-secondary-filter;
 }

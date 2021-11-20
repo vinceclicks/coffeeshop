@@ -2,11 +2,11 @@
 
 .header {
     background-color: $color-primary;
-    position: absolute;
-    height: 50vw;
+    height: calc(50vw + 13.1rem);
     width: 101%;
-    top: 13.1rem;
-    z-index: -1;
+    padding-top: 13.1rem;
+    position: relative;
+    z-index: 0;
 
     display: flex;
 
@@ -33,6 +33,8 @@
 
     &__heroimg {
         width: 100%;
+        z-index: 0;
+        position: relative;
         transform: translateY(3rem);
     }
 }

@@ -16,10 +16,10 @@ function Header() {
                 </p>
                 <div className="header__btn-group">
                     <a href="#" className="btn-primary">
-                        Shop Coffee <RightArrow className="btn-symbol" />
+                        Shop Coffee &nbsp; <RightArrow className="btn-symbol btn-symbol-arr" />
                     </a>
                     <a href="#" className="btn-secondary">
-                        <PlaySym className="btn-symbol btn-symbol--mr" />
+                        <PlaySym className="btn-symbol btn-symbol-play" />
                         Play Inspiration
                     </a>
                 </div>

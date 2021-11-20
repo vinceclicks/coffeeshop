@@ -1,0 +1,82 @@
+@import "../../assets/index.scss";
+
+.bestintown {
+    padding: $page-padding;
+    background-color: $color-primary-light;
+    position: relative;
+    width: 100vw;
+    z-index: 1;
+    padding-top: 3rem;
+
+    &__box {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-bottom: 12rem;
+    }
+
+    &__textbox {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10rem;
+        padding-bottom: 6rem;
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 4.5rem;
+        text-align: center;
+    }
+
+    &__card {
+        background-color: $color-primary-lighter;
+        padding: 4rem;
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        &:hover {
+            background-color: $color-secondary;
+        }
+
+        &:hover .bestintown__circle {
+            background-color: #fff;
+        }
+
+        &:hover .bestintown__img {
+            filter: $color-primary-light-filter;
+        }
+
+        &:hover h3 {
+            color: $color-primary;
+        }
+    }
+
+    &__circle {
+        background-color: $color-primary;
+        width: 11rem;
+        height: 11rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__img {
+        filter: $color-secondary-filter;
+    }
+
+    &__tea {
+        margin-left: 1rem;
+    }
+
+    &__cap {
+        margin-left: 1rem;
+    }
+}

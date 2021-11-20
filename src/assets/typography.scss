@@ -1,0 +1,15 @@
+@import "./index.scss";
+
+.heading-1 {
+    font-family: $font-primary;
+    font-size: 8rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.heading-sub {
+    font-size: 1.8rem;
+    font-family: $font-secondary;
+    color: #fff;
+    margin-bottom: 4rem;
+}

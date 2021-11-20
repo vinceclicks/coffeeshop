@@ -16,4 +16,39 @@ html {
 body {
   font-size: 1.6rem;
 }
+
+.btn-primary:link, .btn-primary:visited {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #1d222c;
+  background-color: #f2c56d;
+  padding: 1.2rem 2.5rem;
+  font-size: 2.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-secondary:link, .btn-secondary:visited {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #f2c56d;
+  background-color: #1d222c;
+  border: 1px solid #f2c56d;
+  padding: 1.2rem 2.5rem;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-symbol {
+  -webkit-transform: translate(5px, 2px);
+          transform: translate(5px, 2px);
+  padding: 0.1rem;
+}
+
+.btn-symbol--mr {
+  margin-right: 2rem;
+}
 /*# sourceMappingURL=index.css.map */

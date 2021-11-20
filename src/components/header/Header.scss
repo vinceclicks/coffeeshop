@@ -2,14 +2,37 @@
 
 .header {
     background-color: $color-primary;
+    position: absolute;
+    height: 50vw;
+    width: 101%;
+    top: 13.1rem;
+    z-index: -1;
 
     display: flex;
 
     &__text-box {
-        flex: 0 1 auto;
+        justify-self: center;
+        align-self: center;
+        width: 50%;
+        padding-left: 5vw;
+    }
+
+    &__paragraph {
+        width: 80%;
+    }
+
+    &__btn-group {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-column-gap: 3rem;
     }
 
     &__hero-box {
-        flex: 0 1 auto;
+        width: 50%;
+    }
+
+    &__heroimg {
+        width: 100%;
+        transform: translateY(3rem);
     }
 }

@@ -27,7 +27,7 @@ class Navbar extends Component {
                     <div className="navbar__nav">
                         <input onClick={this.toggleNav} type="checkbox" id="nav-toggle" className="navbar__checkbox" />
                         <label htmlFor="nav-toggle" className="navbar__button">
-                            <span class="navbar__icon">&nbsp;</span>
+                            <span className="navbar__icon">&nbsp;</span>
                         </label>
                     </div>
                 </div>

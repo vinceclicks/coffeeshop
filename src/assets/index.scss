@@ -30,3 +30,39 @@ html {
 body {
     font-size: 1.6rem;
 }
+
+.btn-primary {
+    &:link,
+    &:visited {
+        font-family: $font-secondary;
+        text-decoration: none;
+        color: $color-primary;
+        background-color: $color-secondary;
+        padding: 1.2rem 2.5rem;
+        font-size: 2.1rem;
+        display: flex;
+    }
+}
+
+.btn-secondary {
+    &:link,
+    &:visited {
+        font-family: $font-secondary;
+        text-decoration: none;
+        color: $color-secondary;
+        background-color: $color-primary;
+        border: 1px solid $color-secondary;
+        padding: 1.2rem 2.5rem;
+        font-size: 2rem;
+        display: flex;
+    }
+}
+
+.btn-symbol {
+    transform: translate(5px, 2px);
+    padding: 0.1rem;
+
+    &--mr {
+        margin-right: 2rem;
+    }
+}

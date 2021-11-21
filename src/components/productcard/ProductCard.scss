@@ -7,6 +7,8 @@
     position: relative;
     flex: 0 1 30%;
 
+    //media query to change percentage of screen real estate at different screen sizes
+
     &:not(:last-child) {
         margin-right: 4rem;
     }

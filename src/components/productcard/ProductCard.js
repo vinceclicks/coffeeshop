@@ -3,13 +3,13 @@ import "./ProductCard.scss";
 import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
 import { ReactComponent as CoffeeBlue } from "../../assets/coffeeblue.svg";
 
-const ProductCard = () => {
+const ProductCard = (props) => {
     return (
         <div className="productcard">
             <CoffeeBlue className="productcard__img" />
             <div className="productcard__infocontainer">
                 <div className="productcard__textbox">
-                    <h3 className="heading-3">Name</h3>
+                    <h3 className="heading-3">{props.name}</h3>
                     <p className="paragraph">Serving the best coffee in town. Every one likes coffee.</p>
                 </div>
                 <div className="productcard__finalbox">

@@ -24,9 +24,9 @@ body {
   background-color: #f2c56d;
   padding: 1.2rem 2.5rem;
   font-size: 2.1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -76,6 +76,40 @@ body {
           transform: translateY(-0.1rem);
 }
 
+.btn-tertiary:link, .btn-tertiary:visited {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #f2c56d;
+  background-color: #232832;
+  padding: 1.2rem 2.5rem;
+  font-size: 2rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn-tertiary:hover {
+  border: 1px solid #f2c56d;
+}
+
+.btn-tertiary:active, .btn-tertiary:focus {
+  background-color: #f2c56d;
+  color: #1d222c;
+}
+
+.btn-tertiary:active .btn-symbol-arrgold {
+  -webkit-filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+          filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+}
+
+.btn-tertiary:focus .btn-symbol-arrgold {
+  -webkit-filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+          filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+}
+
 .btn-symbol {
   -webkit-transform: translate(5px, 2px);
           transform: translate(5px, 2px);
@@ -87,6 +121,11 @@ body {
           filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
 }
 
+.btn-symbol-arrgold {
+  -webkit-filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+          filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+}
+
 .btn-symbol-play {
   margin-right: 2rem;
   -webkit-filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
@@ -95,6 +134,7 @@ body {
 
 .heading-1 {
   font-family: "PT Serif", serif;
+  font-weight: 300;
   font-size: 8rem;
   color: #fff;
   margin-bottom: 2rem;
@@ -109,6 +149,7 @@ body {
 
 .heading-2 {
   font-family: "PT Serif", serif;
+  font-weight: 300;
   font-size: 5.6rem;
   color: #fff;
   margin-bottom: 2rem;
@@ -116,13 +157,24 @@ body {
 
 .heading-3 {
   font-family: "PT Serif", serif;
-  font-size: 2.4rem;
+  font-weight: 300;
+  font-size: 3.5rem;
   color: #fff;
+}
+
+.heading-4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #f2c56d;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .paragraph {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1.6rem;
   color: #fff;
 }
 /*# sourceMappingURL=typography.css.map */

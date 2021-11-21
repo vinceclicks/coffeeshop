@@ -1,0 +1,25 @@
+@import "../../assets/index.scss";
+@import "../../assets/typography.scss";
+
+.recentproducts {
+    background-color: $color-primary;
+    padding-top: 28rem;
+    width: 100vw;
+
+    &__box {
+        padding: $page-padding;
+    }
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__productsbox {
+        padding-top: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

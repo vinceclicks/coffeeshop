@@ -2,6 +2,7 @@
 
 .heading-1 {
     font-family: $font-primary;
+    font-weight: 300;
     font-size: 8rem;
     color: #fff;
     margin-bottom: 2rem;
@@ -16,6 +17,7 @@
 
 .heading-2 {
     font-family: $font-primary;
+    font-weight: 300;
     font-size: 5.6rem;
     color: #fff;
     margin-bottom: 2rem;
@@ -23,12 +25,23 @@
 
 .heading-3 {
     font-family: $font-primary;
-    font-size: 2.4rem;
+    font-weight: 300;
+    font-size: 3.5rem;
     color: #fff;
+}
+
+.heading-4 {
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-size: 2rem;
+    color: $color-secondary;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
 .paragraph {
     font-family: $font-secondary;
-    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 1.6rem;
     color: #fff;
 }

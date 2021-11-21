@@ -4,6 +4,7 @@
 $color-primary: #1d222c;
 $color-primary-light: #252a35;
 $color-primary-lighter: #2a2e38;
+$color-primary-productbg: #232832;
 
 $color-secondary: #f2c56d;
 
@@ -56,9 +57,10 @@ body {
         background-color: $color-secondary;
         padding: 1.2rem 2.5rem;
         font-size: 2.1rem;
-        display: flex;
+        display: inline-flex;
         cursor: pointer;
         transition: all 0.2s;
+        border: 1px solid $color-primary;
     }
 
     &:hover {
@@ -103,6 +105,40 @@ body {
     }
 }
 
+.btn-tertiary {
+    &:link,
+    &:visited {
+        font-family: $font-secondary;
+        text-decoration: none;
+        color: $color-secondary;
+        background-color: $color-primary-productbg;
+        padding: 1.2rem 2.5rem;
+        font-size: 2rem;
+        display: inline-flex;
+        cursor: pointer;
+        transition: all 0.5s;
+        border: 1px solid $color-primary-productbg;
+    }
+
+    &:hover {
+        border: 1px solid $color-secondary;
+    }
+
+    &:active,
+    &:focus {
+        background-color: $color-secondary;
+        color: $color-primary;
+    }
+
+    &:active .btn-symbol-arrgold {
+        filter: $color-primary-filter;
+    }
+
+    &:focus .btn-symbol-arrgold {
+        filter: $color-primary-filter;
+    }
+}
+
 .btn-symbol {
     transform: translate(5px, 2px);
     padding: 0.1rem;
@@ -111,6 +147,10 @@ body {
 .btn-symbol-arr {
     //1D222C
     filter: $color-primary-filter;
+}
+
+.btn-symbol-arrgold {
+    filter: $color-secondary-filter;
 }
 
 .btn-symbol-play {

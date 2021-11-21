@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.efe3b59f.chunk.css",
+    "main.js": "/static/js/main.40af5877.chunk.js",
+    "main.js.map": "/static/js/main.40af5877.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.86cf85b2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.86cf85b2.js.map",
+    "static/js/2.59891587.chunk.js": "/static/js/2.59891587.chunk.js",
+    "static/js/2.59891587.chunk.js.map": "/static/js/2.59891587.chunk.js.map",
+    "static/js/3.80fb2590.chunk.js": "/static/js/3.80fb2590.chunk.js",
+    "static/js/3.80fb2590.chunk.js.map": "/static/js/3.80fb2590.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.efe3b59f.chunk.css.map": "/static/css/main.efe3b59f.chunk.css.map",
+    "static/js/2.59891587.chunk.js.LICENSE.txt": "/static/js/2.59891587.chunk.js.LICENSE.txt",
+    "static/media/OurStory.scss": "/static/media/cafe-bar.e20f0b91.png",
+    "static/media/cap.20379b13.svg": "/static/media/cap.20379b13.svg",
+    "static/media/cardbeans.013d0699.svg": "/static/media/cardbeans.013d0699.svg",
+    "static/media/cart-icon.f81eeb33.svg": "/static/media/cart-icon.f81eeb33.svg",
+    "static/media/coffeeblue.da5f1664.svg": "/static/media/coffeeblue.da5f1664.svg",
+    "static/media/decaf.48288e70.svg": "/static/media/decaf.48288e70.svg",
+    "static/media/herogroup.91d5d014.png": "/static/media/herogroup.91d5d014.png",
+    "static/media/logo.006cec81.svg": "/static/media/logo.006cec81.svg",
+    "static/media/playsym.23b29a60.svg": "/static/media/playsym.23b29a60.svg",
+    "static/media/r-arr.f078652b.svg": "/static/media/r-arr.f078652b.svg",
+    "static/media/search-icon.1682a4df.svg": "/static/media/search-icon.1682a4df.svg",
+    "static/media/tea.2e97e441.svg": "/static/media/tea.2e97e441.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86cf85b2.js",
+    "static/js/2.59891587.chunk.js",
+    "static/css/main.efe3b59f.chunk.css",
+    "static/js/main.40af5877.chunk.js"
+  ]
+}

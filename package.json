@@ -1,5 +1,6 @@
 {
     "name": "coffeeshop",
+    "homepage": "https://vinceclicks.github.io",
     "version": "0.1.0",
     "private": true,
     "dependencies": {

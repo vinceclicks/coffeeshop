@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import BestInTown from "./components/bestintown/BestInTown";
 import OurStory from "./components/ourstory/OurStory";
 import RecentProducts from "./components/recentproducts/RecentProducts";
+import Secret from "./components/secret/Secret";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <BestInTown />
             <OurStory />
             <RecentProducts />
+            <Secret />
         </div>
     );
 }

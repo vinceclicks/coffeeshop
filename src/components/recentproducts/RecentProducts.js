@@ -2,6 +2,9 @@ import React from "react";
 import "./RecentProducts.scss";
 import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
 import ProductCard from "../productcard/ProductCard";
+import { ReactComponent as CoffeeBlue } from "../../assets/coffeeblue.svg";
+import { ReactComponent as CoffeePurple } from "../../assets/coffeepurple.svg";
+import { ReactComponent as CoffeeOrange } from "../../assets/coffeeorange.svg";
 
 const RecentProducts = () => {
     return (
@@ -19,9 +22,9 @@ const RecentProducts = () => {
                     </div>
                 </div>
                 <div className="recentproducts__productsbox">
-                    <ProductCard name="Green Americana" />
-                    <ProductCard name="Ethiopian Aroma" />
-                    <ProductCard name="Double Espresso" />
+                    <ProductCard name="Green Americana" image={<CoffeeBlue className="productcard__img" />} />
+                    <ProductCard name="Ethiopian Aroma" image={<CoffeePurple className="productcard__img" />} />
+                    <ProductCard name="Double Espresso" image={<CoffeeOrange className="productcard__img" />} />
                 </div>
             </div>
         </section>

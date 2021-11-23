@@ -1,0 +1,32 @@
+@import "../../assets/index.scss";
+@import "../../assets/typography.scss";
+
+.ourlocations {
+    background-color: $color-primary;
+    padding: $page-padding;
+    width: 100vw;
+
+    &__box {
+        padding-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__textbox {
+        flex: 0 1 45%;
+    }
+
+    &__textbox p {
+        margin-bottom: 5rem;
+        padding-right: 10rem;
+    }
+
+    &__imgbox {
+        flex: 0 1 55%;
+    }
+
+    &__img {
+        width: 100%;
+    }
+}

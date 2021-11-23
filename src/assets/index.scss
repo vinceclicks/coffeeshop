@@ -75,6 +75,42 @@ body {
     }
 }
 
+.btn-primary--v2 {
+    &,
+    &:link,
+    &:visited {
+        font-family: $font-secondary;
+        text-decoration: none;
+        color: $color-primary;
+        background-color: $color-secondary;
+        padding: 1.2rem 2.5rem;
+        font-size: 2.1rem;
+        display: inline-flex;
+        cursor: pointer;
+        transition: all 0.2s;
+        border: 1px solid $color-primary;
+        border-radius: 50px;
+    }
+
+    &:hover {
+        transform: translateY(-0.3rem);
+    }
+
+    &:active,
+    &:focus {
+        border: 1px solid $color-secondary;
+        color: $color-secondary;
+        background-color: $color-primary;
+        transform: translateY(0rem);
+        outline: none;
+    }
+
+    &:active .btn-symbol-arr,
+    &:focus .btn-symbol-arr {
+        filter: $color-secondary-filter;
+    }
+}
+
 .btn-secondary {
     &:link,
     &:visited {

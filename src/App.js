@@ -7,6 +7,7 @@ import RecentProducts from "./components/recentproducts/RecentProducts";
 import Secret from "./components/secret/Secret";
 import OurLocations from "./components/ourlocations/OurLocations";
 import CallToAction from "./components/calltoaction/CallToAction";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <Secret />
             <OurLocations />
             <CallToAction />
+            <Footer />
         </div>
     );
 }

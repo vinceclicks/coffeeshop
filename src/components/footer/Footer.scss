@@ -1,0 +1,35 @@
+@import "../../assets/index.scss";
+@import "../../assets/typography.scss";
+
+.footer {
+    width: 100vw;
+    background-color: $color-primary-light;
+    padding: $page-padding;
+
+    &__businessbox {
+        text-align: center;
+    }
+
+    &__paragraph {
+        max-width: 60rem;
+        margin: 0 auto;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    &__copyrightbox {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+    }
+
+    &__termsbox {
+        display: flex;
+    }
+
+    &__terms {
+        margin-left: 3rem;
+    }
+}

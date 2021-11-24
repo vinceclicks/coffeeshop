@@ -24,9 +24,17 @@
 
     &__imgbox {
         flex: 0 1 55%;
+        position: relative;
     }
 
     &__img {
         width: 100%;
     }
+}
+
+.bean__9 {
+    max-width: 25rem;
+    width: 28%;
+    top: -10rem;
+    right: -7rem;
 }

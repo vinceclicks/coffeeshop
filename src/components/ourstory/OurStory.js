@@ -1,6 +1,8 @@
 import React from "react";
 import "./OurStory.scss";
 import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
+import BeanFour from "../../assets/bean4.png";
+import BeanLeafTwo from "../../assets/beanleaf2.png";
 
 const OurStory = () => {
     return (
@@ -18,7 +20,10 @@ const OurStory = () => {
                     </a>
                 </div>
                 <div className="ourstory__imgbox">
-                    <div className="ourstory__img" />
+                    <div className="ourstory__img">
+                        <img src={BeanLeafTwo} alt="Bean" className="beanleaf__2" />
+                    </div>
+                    <img src={BeanFour} alt="Bean" className="bean bean__4" />
                 </div>
                 <h3 className="heading-3 ourstory__quote">
                     "A cup of coffee shared with a friend is happiness tasted and time well spent."

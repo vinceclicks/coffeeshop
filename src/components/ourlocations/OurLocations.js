@@ -2,6 +2,7 @@ import React from "react";
 import "./OurLocations.scss";
 import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
 import BaristaBar from "../../assets/baristabar.png";
+import BeanNine from "../../assets/bean1.png";
 
 const OurLocations = () => {
     return (
@@ -19,6 +20,7 @@ const OurLocations = () => {
                 </div>
                 <div className="ourlocations__imgbox">
                     <img src={BaristaBar} alt="Barista Bar" className="ourlocations__img" />
+                    <img src={BeanNine} alt="bean" className="bean bean__9" />
                 </div>
             </div>
         </section>

@@ -5,6 +5,8 @@
     background-color: $color-primary;
     padding-top: 28rem;
     width: 100vw;
+    position: relative;
+    z-index: -1;
 
     &__box {
         padding: $page-padding;
@@ -22,4 +24,17 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+.bean__5 {
+    max-width: 20rem;
+    width: 12%;
+    right: -5rem;
+    top: 40rem;
+}
+
+.bean__6 {
+    max-width: 20rem;
+    width: 13%;
+    top: 4rem;
 }

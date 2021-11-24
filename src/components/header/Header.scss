@@ -6,7 +6,6 @@
     width: 100vw;
     padding-top: 13.1rem;
     position: relative;
-    z-index: 0;
 
     display: flex;
 
@@ -15,6 +14,10 @@
         align-self: center;
         width: 50%;
         padding-left: 6vw;
+        margin-right: -1rem;
+        margin-bottom: 5rem;
+        z-index: 2;
+        position: relative;
     }
 
     &__paragraph {
@@ -37,4 +40,31 @@
         position: relative;
         transform: translateY(3rem);
     }
+}
+
+.bean__1 {
+    width: 20%;
+    max-width: 30rem;
+    right: -12rem;
+    top: 10rem;
+}
+
+.bean__2 {
+    max-width: 25rem;
+    width: 20%;
+    top: 15rem;
+    left: -12rem;
+}
+
+.bean__3 {
+    width: 20%;
+    top: -4%;
+    left: 21rem;
+    z-index: -1;
+}
+
+.beanleaf__1 {
+    max-width: 30rem;
+    width: 15%;
+    bottom: -7rem;
 }

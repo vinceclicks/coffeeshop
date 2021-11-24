@@ -1,10 +1,13 @@
 import React from "react";
 import "./CallToAction.scss";
 import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
+import BeanLeafThree from "../../assets/beanleaf3.png";
+import BeanLeafFour from "../../assets/beanleaf2.png";
 
 const CallToAction = () => {
     return (
-        <div className="cta">
+        <section className="cta">
+            <img src={BeanLeafThree} alt="Beans" className="bean beanleaf__3" />
             <div className="cta__contentbox">
                 <div className="cta__textbox">
                     <h2 className="heading-2">Join Us And Get A 45% Discount</h2>
@@ -20,7 +23,8 @@ const CallToAction = () => {
                     </button>
                 </div>
             </div>
-        </div>
+            <img src={BeanLeafFour} alt="Beans" className="bean beanleaf__4" />
+        </section>
     );
 };
 

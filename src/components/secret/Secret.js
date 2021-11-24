@@ -1,10 +1,13 @@
 import React from "react";
 import "./Secret.scss";
 import FilterPour from "../../assets/filterpour.png";
+import BeanSeven from "../../assets/bean7.png";
 
 const Secret = () => {
     return (
         <section className="secret">
+            <img src={BeanSeven} alt="Beans" className="bean bean__7" />
+            <img src={BeanSeven} alt="Beans" className="bean bean__8" />
             <div className="secret__box">
                 <div className="secret__head">
                     <h2 className="heading-2 secret__text">Secret Of Our Coffee</h2>

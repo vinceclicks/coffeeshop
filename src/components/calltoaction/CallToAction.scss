@@ -5,6 +5,7 @@
     background-color: $color-primary;
     padding: $page-padding;
     width: 100vw;
+    position: relative;
 
     &__contentbox {
         padding-top: 20rem;
@@ -57,4 +58,17 @@
             font-size: 1.5rem;
         }
     }
+}
+
+.beanleaf__3 {
+    max-width: 35rem;
+    width: 20%;
+    left: 4rem;
+}
+
+.beanleaf__4 {
+    max-width: 25rem;
+    width: 15%;
+    right: 0rem;
+    bottom: -3rem;
 }

@@ -10,6 +10,7 @@ class Navbar extends Component {
         super(props);
         this.state = {
             isNavOpen: false,
+            checked: false,
         };
         this.toggleNav = this.toggleNav.bind(this);
     }
@@ -17,6 +18,7 @@ class Navbar extends Component {
     toggleNav() {
         this.setState({
             isNavOpen: !this.state.isNavOpen,
+            checked: !this.state.checked,
         });
         console.log(this.state.isNavOpen);
     }
@@ -29,6 +31,7 @@ class Navbar extends Component {
                         <div className="navbar__nav">
                             <input
                                 onClick={this.toggleNav}
+                                checked={this.state.checked}
                                 type="checkbox"
                                 id="nav-toggle"
                                 className="navbar__checkbox"

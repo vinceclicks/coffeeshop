@@ -27,6 +27,18 @@ $font-secondary: "Open Sans", sans-serif; // Substitute for Avenir LT Std;
 $page-padding: 0 6vw;
 
 ////////////////////////////////////////////////////
+//TEMP CONSTRUCTION
+.comingsoon {
+    background-color: $color-primary;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 13.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+////////////////////////////////////////////////////
 //TOP LEVEL
 
 *,

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/coffeeshop/static/css/main.86ff34c3.chunk.css",
-    "main.js": "/coffeeshop/static/js/main.1ee3bf78.chunk.js",
-    "main.js.map": "/coffeeshop/static/js/main.1ee3bf78.chunk.js.map",
-    "runtime-main.js": "/coffeeshop/static/js/runtime-main.6563172f.js",
-    "runtime-main.js.map": "/coffeeshop/static/js/runtime-main.6563172f.js.map",
-    "static/js/2.59891587.chunk.js": "/coffeeshop/static/js/2.59891587.chunk.js",
-    "static/js/2.59891587.chunk.js.map": "/coffeeshop/static/js/2.59891587.chunk.js.map",
-    "static/js/3.08f73277.chunk.js": "/coffeeshop/static/js/3.08f73277.chunk.js",
-    "static/js/3.08f73277.chunk.js.map": "/coffeeshop/static/js/3.08f73277.chunk.js.map",
+    "main.css": "/coffeeshop/static/css/main.63eedb98.chunk.css",
+    "main.js": "/coffeeshop/static/js/main.4eb8de82.chunk.js",
+    "main.js.map": "/coffeeshop/static/js/main.4eb8de82.chunk.js.map",
+    "runtime-main.js": "/coffeeshop/static/js/runtime-main.b9cc74a2.js",
+    "runtime-main.js.map": "/coffeeshop/static/js/runtime-main.b9cc74a2.js.map",
+    "static/js/2.bd85d368.chunk.js": "/coffeeshop/static/js/2.bd85d368.chunk.js",
+    "static/js/2.bd85d368.chunk.js.map": "/coffeeshop/static/js/2.bd85d368.chunk.js.map",
+    "static/js/3.a0249e84.chunk.js": "/coffeeshop/static/js/3.a0249e84.chunk.js",
+    "static/js/3.a0249e84.chunk.js.map": "/coffeeshop/static/js/3.a0249e84.chunk.js.map",
     "index.html": "/coffeeshop/index.html",
-    "static/css/main.86ff34c3.chunk.css.map": "/coffeeshop/static/css/main.86ff34c3.chunk.css.map",
-    "static/js/2.59891587.chunk.js.LICENSE.txt": "/coffeeshop/static/js/2.59891587.chunk.js.LICENSE.txt",
+    "static/css/main.63eedb98.chunk.css.map": "/coffeeshop/static/css/main.63eedb98.chunk.css.map",
+    "static/js/2.bd85d368.chunk.js.LICENSE.txt": "/coffeeshop/static/js/2.bd85d368.chunk.js.LICENSE.txt",
     "static/media/baristabar.2309f46b.png": "/coffeeshop/static/media/baristabar.2309f46b.png",
     "static/media/bean1.63eb2a7a.png": "/coffeeshop/static/media/bean1.63eb2a7a.png",
     "static/media/bean2.19cf6f46.png": "/coffeeshop/static/media/bean2.19cf6f46.png",
@@ -39,9 +39,9 @@
     "static/media/tea.2e97e441.svg": "/coffeeshop/static/media/tea.2e97e441.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6563172f.js",
-    "static/js/2.59891587.chunk.js",
-    "static/css/main.86ff34c3.chunk.css",
-    "static/js/main.1ee3bf78.chunk.js"
+    "static/js/runtime-main.b9cc74a2.js",
+    "static/js/2.bd85d368.chunk.js",
+    "static/css/main.63eedb98.chunk.css",
+    "static/js/main.4eb8de82.chunk.js"
   ]
 }

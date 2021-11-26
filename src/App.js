@@ -1,25 +1,25 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import "./assets/App.scss";
 import Navbar from "./components/navbar/Navbar";
-import Header from "./components/header/Header";
-import BestInTown from "./components/bestintown/BestInTown";
-import OurStory from "./components/ourstory/OurStory";
-import RecentProducts from "./components/recentproducts/RecentProducts";
-import Secret from "./components/secret/Secret";
-import OurLocations from "./components/ourlocations/OurLocations";
-import CallToAction from "./components/calltoaction/CallToAction";
 import Footer from "./components/footer/Footer";
+import HomePage from "./components/HomePage";
+import StoryPage from "./components/StoryPage";
+import ShopPage from "./components/ShopPage";
+import LocationsPage from "./components/LocationsPage";
+import ContactPage from "./components/ContactPage";
 
 function App() {
     return (
         <div className="App">
             <Navbar />
-            <Header />
-            <BestInTown />
-            <OurStory />
-            <RecentProducts />
-            <Secret />
-            <OurLocations />
-            <CallToAction />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/story" element={<StoryPage />} />
+                <Route path="/shop" element={<ShopPage />} />
+                <Route path="/locations" element={<LocationsPage />} />
+                <Route path="/contact" element={<ContactPage />} />
+            </Routes>
             <Footer />
         </div>
     );

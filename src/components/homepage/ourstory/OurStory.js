@@ -1,8 +1,8 @@
 import React from "react";
 import "./OurStory.scss";
-import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
-import BeanFour from "../../assets/bean4.png";
-import BeanLeafTwo from "../../assets/beanleaf2.png";
+import { ReactComponent as RightArrow } from "../../../assets/r-arr.svg";
+import BeanFour from "../../../assets/bean4.png";
+import BeanLeafTwo from "../../../assets/beanleaf2.png";
 
 const OurStory = () => {
     return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./OurLocations.scss";
-import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
-import BaristaBar from "../../assets/baristabar.png";
-import BeanNine from "../../assets/bean1.png";
+import { ReactComponent as RightArrow } from "../../../assets/r-arr.svg";
+import BaristaBar from "../../../assets/baristabar.png";
+import BeanNine from "../../../assets/bean1.png";
 
 const OurLocations = () => {
     return (

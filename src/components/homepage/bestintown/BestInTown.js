@@ -1,11 +1,11 @@
 import React from "react";
-import "../../assets/index.scss";
-import "../../assets/typography.scss";
+import "../../../assets/index.scss";
+import "../../../assets/typography.scss";
 import "./BestInTown.scss";
-import { ReactComponent as CardBeans } from "../../assets/cardbeans.svg";
-import { ReactComponent as Decaf } from "../../assets/decaf.svg";
-import { ReactComponent as Tea } from "../../assets/tea.svg";
-import { ReactComponent as Cap } from "../../assets/cap.svg";
+import { ReactComponent as CardBeans } from "../../../assets/cardbeans.svg";
+import { ReactComponent as Decaf } from "../../../assets/decaf.svg";
+import { ReactComponent as Tea } from "../../../assets/tea.svg";
+import { ReactComponent as Cap } from "../../../assets/cap.svg";
 
 const BestInTown = () => {
     return (

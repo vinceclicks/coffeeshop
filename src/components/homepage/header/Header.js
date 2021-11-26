@@ -1,14 +1,14 @@
 import React from "react";
 import "./Header.scss";
-import "../../assets/typography.scss";
-import "../../assets/index.scss";
-import HeroGroup from "../../assets/herogroup.png";
-import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
-import { ReactComponent as PlaySym } from "../../assets/playsym.svg";
-import BeanOne from "../../assets/bean1.png";
-import BeanTwo from "../../assets/bean2.png";
-import BeanThree from "../../assets/bean3.png";
-import BeanLeafOne from "../../assets/beanleaf1.png";
+import "../../../assets/typography.scss";
+import "../../../assets/index.scss";
+import HeroGroup from "../../../assets/herogroup.png";
+import { ReactComponent as RightArrow } from "../../../assets/r-arr.svg";
+import { ReactComponent as PlaySym } from "../../../assets/playsym.svg";
+import BeanOne from "../../../assets/bean1.png";
+import BeanTwo from "../../../assets/bean2.png";
+import BeanThree from "../../../assets/bean3.png";
+import BeanLeafOne from "../../../assets/beanleaf1.png";
 
 function Header() {
     return (

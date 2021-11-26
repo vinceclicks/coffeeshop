@@ -1,8 +1,8 @@
 import React from "react";
 import "./CallToAction.scss";
-import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
-import BeanLeafThree from "../../assets/beanleaf3.png";
-import BeanLeafFour from "../../assets/beanleaf2.png";
+import { ReactComponent as RightArrow } from "../../../assets/r-arr.svg";
+import BeanLeafThree from "../../../assets/beanleaf3.png";
+import BeanLeafFour from "../../../assets/beanleaf2.png";
 
 const CallToAction = () => {
     return (

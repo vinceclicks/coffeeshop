@@ -1,7 +1,7 @@
 import React from "react";
 import "./Secret.scss";
-import FilterPour from "../../assets/filterpour.png";
-import BeanSeven from "../../assets/bean7.png";
+import FilterPour from "../../../assets/filterpour.png";
+import BeanSeven from "../../../assets/bean7.png";
 
 const Secret = () => {
     return (

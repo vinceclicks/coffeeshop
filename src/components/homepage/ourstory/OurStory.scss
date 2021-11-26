@@ -1,5 +1,5 @@
-@import "../../assets/index.scss";
-@import "../../assets/typography.scss";
+@import "../../../assets/index.scss";
+@import "../../../assets/typography.scss";
 
 .ourstory {
     background-color: $color-primary-light;
@@ -31,7 +31,7 @@
     &__img {
         width: 100%;
         height: 70rem;
-        background-image: url(../../assets/cafe-bar.png);
+        background-image: url(../../../assets/cafe-bar.png);
         background-position: center;
         background-size: cover;
         position: absolute;

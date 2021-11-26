@@ -1,12 +1,12 @@
 import React from "react";
 import "./RecentProducts.scss";
-import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
-import ProductCard from "../productcard/ProductCard";
-import { ReactComponent as CoffeeBlue } from "../../assets/coffeeblue.svg";
-import { ReactComponent as CoffeePurple } from "../../assets/coffeepurple.svg";
-import { ReactComponent as CoffeeOrange } from "../../assets/coffeeorange.svg";
-import BeanFive from "../../assets/bean1.png";
-import BeanSix from "../../assets/bean6.png";
+import { ReactComponent as RightArrow } from "../../../assets/r-arr.svg";
+import ProductCard from "../../productcard/ProductCard";
+import { ReactComponent as CoffeeBlue } from "../../../assets/coffeeblue.svg";
+import { ReactComponent as CoffeePurple } from "../../../assets/coffeepurple.svg";
+import { ReactComponent as CoffeeOrange } from "../../../assets/coffeeorange.svg";
+import BeanFive from "../../../assets/bean1.png";
+import BeanSix from "../../../assets/bean6.png";
 
 const RecentProducts = () => {
     return (

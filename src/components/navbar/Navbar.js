@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.scss";
+import { NavLink } from "react-router-dom";
 import { ReactComponent as Search } from "../../assets/search-icon.svg";
 import { ReactComponent as Cart } from "../../assets/cart-icon.svg";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
@@ -22,55 +23,62 @@ class Navbar extends Component {
 
     render() {
         return (
-            <div className="navbar">
-                <div className="navbar__nav-box">
-                    <div className="navbar__nav">
-                        <input onClick={this.toggleNav} type="checkbox" id="nav-toggle" className="navbar__checkbox" />
-                        <label htmlFor="nav-toggle" className="navbar__button">
-                            <span className="navbar__icon">&nbsp;</span>
-                        </label>
+            <>
+                <div className="navbar">
+                    <div className="navbar__nav-box">
+                        <div className="navbar__nav">
+                            <input
+                                onClick={this.toggleNav}
+                                type="checkbox"
+                                id="nav-toggle"
+                                className="navbar__checkbox"
+                            />
+                            <label htmlFor="nav-toggle" className="navbar__button">
+                                <span className="navbar__icon">&nbsp;</span>
+                            </label>
+                        </div>
                     </div>
-                </div>
-                <div className="navbar__logo-box">
-                    <Logo className="navbar__logo" />
-                </div>
-                <div className="navbar__tools">
-                    <a href="#" className="navbar__search">
-                        <Search className="navbar__search-icon" />
-                    </a>
-                    <div className="navbar__cart-box">
-                        <a href="#">
-                            <Cart className="navbar__cart" />
-                            <div className="navbar__cart-badge" />
+                    <div className="navbar__logo-box">
+                        <Logo className="navbar__logo" />
+                    </div>
+                    <div className="navbar__tools">
+                        <a href="#" className="navbar__search">
+                            <Search className="navbar__search-icon" />
                         </a>
+                        <div className="navbar__cart-box">
+                            <a href="#">
+                                <Cart className="navbar__cart" />
+                                <div className="navbar__cart-badge" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <nav className={`navigation ${this.state.isNavOpen ? "navigation__navopen" : ""}`}>
                     <ul className="navigation__list">
-                        <li className="navigation__item ">
-                            <a href="#" className="navigation__link active">
+                        <li onClick={this.toggleNav} className="navigation__item ">
+                            <NavLink to="/" className="navigation__link">
                                 Home
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="navigation__item">
-                            <a href="#" className="navigation__link">
+                        <li onClick={this.toggleNav} className="navigation__item">
+                            <NavLink to="/story" className="navigation__link">
                                 Story
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="navigation__item">
-                            <a href="#" className="navigation__link">
+                        <li onClick={this.toggleNav} className="navigation__item">
+                            <NavLink to="/shop" className="navigation__link">
                                 Shop
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="navigation__item">
-                            <a href="#" className="navigation__link">
+                        <li onClick={this.toggleNav} className="navigation__item">
+                            <NavLink to="/locations" className="navigation__link">
                                 Locations
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="navigation__item">
-                            <a href="#" className="navigation__link">
+                        <li onClick={this.toggleNav} className="navigation__item">
+                            <NavLink to="/contact" className="navigation__link">
                                 Contact
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                     <ul className="navigation__list-social">
@@ -91,7 +99,7 @@ class Navbar extends Component {
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </>
         );
     }
 }

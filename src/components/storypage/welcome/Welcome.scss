@@ -1,0 +1,38 @@
+@import "../../../assets/index.scss";
+@import "../../../assets/typography.scss";
+
+.welcome {
+    background-color: $color-primary;
+    padding: $page-padding;
+    width: 100vw;
+    position: relative;
+
+    &__textbox {
+        padding-top: 15rem;
+        padding-bottom: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__beanhead {
+        position: relative;
+    }
+
+    &__paragraph {
+        max-width: 55rem;
+    }
+
+    &__bean1 {
+        position: absolute;
+        top: -1.1rem;
+        left: -10rem;
+    }
+
+    &__bean2 {
+        position: absolute;
+        top: -1rem;
+        right: -10rem;
+    }
+}

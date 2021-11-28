@@ -1,0 +1,166 @@
+@import "../../../assets/index.scss";
+@import "../../../assets/typography.scss";
+
+.testimonials {
+    background-color: $color-secondary;
+    width: 100vw;
+    padding: $page-padding;
+
+    &__carousel {
+        display: flex;
+        padding-top: 10rem;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        padding-right: 6vw;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    &__textbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__text {
+        color: $color-primary !important;
+    }
+
+    &__quote {
+        font-size: 3.5rem;
+        font-family: $font-primary;
+        color: rgba($color-primary, 0.7);
+        margin-top: 5rem;
+        padding-left: 2rem;
+        position: relative;
+
+        &::before {
+            content: "\201C";
+            position: absolute;
+            top: -2rem;
+            left: -1rem;
+            line-height: 1;
+            font-size: 6rem;
+            color: $color-primary;
+            font-family: $font-primary;
+            z-index: 1;
+        }
+
+        &--rquo {
+            transform: translate(0.5rem, -1rem);
+            position: absolute;
+            font-size: 6rem;
+            color: $color-primary;
+            font-family: $font-primary;
+        }
+    }
+
+    &__namebox {
+        align-self: end;
+        padding-top: 3rem;
+    }
+
+    &__name {
+        font-size: 3.5rem;
+        font-family: $font-primary;
+    }
+
+    &__paragraph {
+        color: rgba($color-primary, 0.9) !important;
+    }
+
+    &__buttonbox {
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5rem;
+        padding-bottom: 15%;
+    }
+
+    &__imgbox {
+        width: 50%;
+        margin-bottom: -20rem;
+    }
+
+    &__img {
+        width: 100%;
+
+        &--animate {
+            animation-name: blowup;
+            animation-duration: 1s;
+        }
+    }
+}
+
+@keyframes blowup {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(0);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animateLeft {
+    animation-name: slideleft;
+    animation-duration: 1s;
+}
+
+.animateRight {
+    animation-name: slideright;
+    animation-duration: 1s;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(50vw);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideright {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        transform: translateX(60vw);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

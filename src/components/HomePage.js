@@ -9,7 +9,7 @@ import CallToAction from "./homepage/calltoaction/CallToAction";
 
 const HomePage = () => {
     return (
-        <div>
+        <>
             <Header />
             <BestInTown />
             <OurStory />
@@ -17,7 +17,7 @@ const HomePage = () => {
             <Secret />
             <OurLocations />
             <CallToAction />
-        </div>
+        </>
     );
 };
 

@@ -59,27 +59,27 @@ class Navbar extends Component {
                 <nav className={`navigation ${this.state.isNavOpen ? "navigation__navopen" : ""}`}>
                     <ul className="navigation__list">
                         <li onClick={this.toggleNav} className="navigation__item ">
-                            <NavLink to="/coffeeshop" className="navigation__link">
+                            <NavLink to="/coffeeshop/home" className="navigation__link">
                                 Home
                             </NavLink>
                         </li>
                         <li onClick={this.toggleNav} className="navigation__item">
-                            <NavLink to="/story" className="navigation__link">
+                            <NavLink to="/coffeeshop/story" className="navigation__link">
                                 Story
                             </NavLink>
                         </li>
                         <li onClick={this.toggleNav} className="navigation__item">
-                            <NavLink to="/shop" className="navigation__link">
+                            <NavLink to="/coffeeshop/shop" className="navigation__link">
                                 Shop
                             </NavLink>
                         </li>
                         <li onClick={this.toggleNav} className="navigation__item">
-                            <NavLink to="/locations" className="navigation__link">
+                            <NavLink to="/coffeeshop/locations" className="navigation__link">
                                 Locations
                             </NavLink>
                         </li>
                         <li onClick={this.toggleNav} className="navigation__item">
-                            <NavLink to="/contact" className="navigation__link">
+                            <NavLink to="/coffeeshop/contact" className="navigation__link">
                                 Contact
                             </NavLink>
                         </li>

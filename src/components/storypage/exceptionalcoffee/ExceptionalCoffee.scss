@@ -1,0 +1,36 @@
+@import "../../../assets/index.scss";
+@import "../../../assets/typography.scss";
+
+.exceptionalcoffee {
+    background-color: $color-primary;
+    width: 100vw;
+    padding: $page-padding;
+
+    &__content {
+        padding-top: 40rem;
+        padding-bottom: 20rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 5rem;
+        text-align: center;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__badge {
+        align-self: center;
+    }
+
+    &__head {
+        font-size: 2.8rem;
+        padding-top: 2rem;
+    }
+
+    &__paragraph {
+        padding-top: 2rem;
+    }
+}

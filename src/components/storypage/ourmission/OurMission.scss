@@ -1,0 +1,40 @@
+@import "../../../assets/index.scss";
+@import "../../../assets/typography.scss";
+
+.ourmission {
+    background-color: $color-primary;
+    padding: $page-padding;
+    width: 100vw;
+
+    &__content {
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding-bottom: 15rem;
+    }
+
+    &__imgbox {
+        flex: 1 0 57%;
+    }
+
+    &__textbox {
+        background-color: $color-primary-light;
+        flex-basis: 55%;
+        z-index: 2;
+        padding: 6rem 7rem;
+        margin-left: -15rem;
+        position: relative;
+    }
+
+    &__texthead {
+        padding-bottom: 2rem;
+    }
+
+    &__bean {
+        position: absolute;
+        max-width: 20rem;
+        width: 25%;
+        top: -7rem;
+        right: -7rem;
+    }
+}

@@ -1,3 +1,19 @@
+.comingsoon {
+  background-color: #1d222c;
+  width: 100vw;
+  height: 50vh;
+  padding-top: 13.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -15,6 +31,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  overflow-x: hidden;
 }
 
 .btn-primary, .btn-primary:link, .btn-primary:visited {
@@ -24,12 +41,13 @@ body {
   background-color: #f2c56d;
   padding: 1.2rem 2.5rem;
   font-size: 2.1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  border: 1px solid #1d222c;
 }
 
 .btn-primary:hover {
@@ -40,6 +58,43 @@ body {
 .btn-primary:active, .btn-primary:focus {
   -webkit-transform: translateY(-0.1rem);
           transform: translateY(-0.1rem);
+}
+
+.btn-primary--v2, .btn-primary--v2:link, .btn-primary--v2:visited {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #1d222c;
+  background-color: #f2c56d;
+  padding: 1.2rem 2.5rem;
+  font-size: 2.1rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: 1px solid #1d222c;
+  border-radius: 50px;
+}
+
+.btn-primary--v2:hover {
+  -webkit-transform: translateY(-0.3rem);
+          transform: translateY(-0.3rem);
+}
+
+.btn-primary--v2:active, .btn-primary--v2:focus {
+  border: 1px solid #f2c56d;
+  color: #f2c56d;
+  background-color: #1d222c;
+  -webkit-transform: translateY(0rem);
+          transform: translateY(0rem);
+  outline: none;
+}
+
+.btn-primary--v2:active .btn-symbol-arr,
+.btn-primary--v2:focus .btn-symbol-arr {
+  -webkit-filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+          filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
 }
 
 .btn-secondary:link, .btn-secondary:visited {
@@ -76,6 +131,41 @@ body {
           transform: translateY(-0.1rem);
 }
 
+.btn-tertiary:link, .btn-tertiary:visited {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #f2c56d;
+  background-color: #232832;
+  padding: 1.2rem 2.5rem;
+  font-size: 2rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px solid #232832;
+}
+
+.btn-tertiary:hover {
+  border: 1px solid #f2c56d;
+}
+
+.btn-tertiary:active, .btn-tertiary:focus {
+  background-color: #f2c56d;
+  color: #1d222c;
+}
+
+.btn-tertiary:active .btn-symbol-arrgold {
+  -webkit-filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+          filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+}
+
+.btn-tertiary:focus .btn-symbol-arrgold {
+  -webkit-filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+          filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
+}
+
 .btn-symbol {
   -webkit-transform: translate(5px, 2px);
           transform: translate(5px, 2px);
@@ -87,19 +177,34 @@ body {
           filter: invert(10%) sepia(3%) saturate(5576%) hue-rotate(182deg) brightness(91%) contrast(91%);
 }
 
+.btn-symbol-arrgold {
+  -webkit-filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+          filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
+}
+
 .btn-symbol-play {
   margin-right: 2rem;
   -webkit-filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
           filter: invert(92%) sepia(62%) saturate(4858%) hue-rotate(310deg) brightness(106%) contrast(90%);
 }
 
+.bean {
+  position: absolute;
+}
+
+.goldline {
+  border-left: 1px solid #f2c56d;
+  height: 6rem;
+  margin-bottom: 2rem;
+}
+
 .navbar {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 13.1rem;
   background-color: #1d222c;
   border-bottom: 1px solid #343841;
-  z-index: 1000;
+  z-index: 100;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 3fr 1fr;
@@ -158,8 +263,8 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .navbar__icon::before {
@@ -255,6 +360,7 @@ body {
   position: fixed;
   top: -250rem;
   opacity: 0;
+  z-index: 10;
   width: 101vw;
   height: calc(100vh - 13.1rem);
   background-color: #1d222c;

@@ -24,7 +24,7 @@ $font-secondary: "Open Sans", sans-serif; // Substitute for Avenir LT Std;
 ////////////////////////////////////////////////////
 //HELPERS
 
-$page-padding: 0 6vw;
+$page-padding: 0 7vw 0 6vw;
 
 ////////////////////////////////////////////////////
 //TEMP CONSTRUCTION
@@ -212,4 +212,27 @@ body {
 
 .bean {
     position: absolute;
+}
+
+.goldline {
+    border-left: 1px solid $color-secondary;
+    height: 6rem;
+    margin-bottom: 2rem;
+}
+
+.non-btn {
+    border: none;
+    background-color: transparent;
+    transition: all 0.2s;
+
+    &:hover,
+    &:focus {
+        transform: scale(1.2);
+        border: none;
+        outline: none;
+    }
+
+    &:active {
+        transform: scale(1);
+    }
 }

@@ -1,12 +1,23 @@
 import React from "react";
 import "../assets/index.scss";
 import "../assets/typography.scss";
+import StoryHead from "./storypage/storyhead/StoryHead";
+import Welcome from "./storypage/welcome/Welcome";
+import OurMission from "./storypage/ourmission/OurMission";
+import OurPromise from "./storypage/ourpromise/OurPromise";
+import Testimonials from "./storypage/testimonials/Testimonials";
+import ExceptionalCoffee from "./storypage/exceptionalcoffee/ExceptionalCoffee";
 
 const StoryPage = () => {
     return (
-        <div className="comingsoon">
-            <h1 className="heading-1">Coming Soon!</h1>
-        </div>
+        <>
+            <StoryHead />
+            <Welcome />
+            <OurMission />
+            <OurPromise />
+            <Testimonials />
+            <ExceptionalCoffee />
+        </>
     );
 };
 

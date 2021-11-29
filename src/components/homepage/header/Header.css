@@ -198,6 +198,25 @@ body {
   margin-bottom: 2rem;
 }
 
+.non-btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.non-btn:hover, .non-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: none;
+  outline: none;
+}
+
+.non-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .comingsoon {
   background-color: #1d222c;
   width: 100vw;
@@ -396,6 +415,25 @@ body {
   border-left: 1px solid #f2c56d;
   height: 6rem;
   margin-bottom: 2rem;
+}
+
+.non-btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.non-btn:hover, .non-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: none;
+  outline: none;
+}
+
+.non-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .heading-1 {

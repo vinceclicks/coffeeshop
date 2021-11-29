@@ -5,7 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import HomePage from "./components/HomePage";
 import StoryPage from "./components/StoryPage";
-import ShopPage from "./components/ShopPage";
+import ShopPage from "./components/shoppage/ShopPage";
 import LocationsPage from "./components/LocationsPage";
 import ContactPage from "./components/ContactPage";
 
@@ -14,7 +14,7 @@ function App() {
         <div className="App">
             <Navbar />
             <Routes>
-                <Route path="/coffeeshop/home" element={<HomePage />} />
+                <Route path="/coffeeshop/" element={<HomePage />} />
                 <Route path="/coffeeshop/story" element={<StoryPage />} />
                 <Route path="/coffeeshop/shop" element={<ShopPage />} />
                 <Route path="/coffeeshop/locations" element={<LocationsPage />} />

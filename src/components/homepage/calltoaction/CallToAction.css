@@ -198,6 +198,25 @@ body {
   margin-bottom: 2rem;
 }
 
+.non-btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.non-btn:hover, .non-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: none;
+  outline: none;
+}
+
+.non-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .comingsoon {
   background-color: #1d222c;
   width: 100vw;
@@ -398,6 +417,25 @@ body {
   margin-bottom: 2rem;
 }
 
+.non-btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.non-btn:hover, .non-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: none;
+  outline: none;
+}
+
+.non-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .heading-1 {
   font-family: "PT Serif", serif;
   font-weight: 300;
@@ -453,7 +491,7 @@ body {
 
 .cta {
   background-color: #1d222c;
-  padding: 0 6vw;
+  padding: 0 7vw 0 6vw;
   width: 100vw;
   position: relative;
 }
@@ -514,42 +552,42 @@ body {
 }
 
 .cta__input:active::-webkit-input-placeholder, .cta__input:focus::-webkit-input-placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1.7rem;
 }
 
 .cta__input:active:-ms-input-placeholder, .cta__input:focus:-ms-input-placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1.7rem;
 }
 
 .cta__input:active::-ms-input-placeholder, .cta__input:focus::-ms-input-placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1.7rem;
 }
 
 .cta__input:active::placeholder, .cta__input:focus::placeholder {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 1.7rem;
 }
 
 .cta__input::-webkit-input-placeholder {
-  color: #eee;
+  color: rgba(238, 238, 238, 0.5);
   font-size: 1.5rem;
 }
 
 .cta__input:-ms-input-placeholder {
-  color: #eee;
+  color: rgba(238, 238, 238, 0.5);
   font-size: 1.5rem;
 }
 
 .cta__input::-ms-input-placeholder {
-  color: #eee;
+  color: rgba(238, 238, 238, 0.5);
   font-size: 1.5rem;
 }
 
 .cta__input::placeholder {
-  color: #eee;
+  color: rgba(238, 238, 238, 0.5);
   font-size: 1.5rem;
 }
 

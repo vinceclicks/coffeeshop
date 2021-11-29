@@ -27,7 +27,7 @@ const FooterInfo = () => {
             <div className="footerinfo__company">
                 <div className="footerinfo__boxhead">The company</div>
                 <div className="footerinfo__companybox">
-                    <Link to="/coffeeshop" className="footerinfo__companyitem paragraph--v2">
+                    <Link to="/coffeeshop/" className="footerinfo__companyitem paragraph--v2">
                         Home
                     </Link>
                     <Link to="/coffeeshop/story" className="footerinfo__companyitem paragraph--v2">

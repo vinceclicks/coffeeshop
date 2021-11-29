@@ -198,6 +198,25 @@ body {
   margin-bottom: 2rem;
 }
 
+.non-btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.non-btn:hover, .non-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: none;
+  outline: none;
+}
+
+.non-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .comingsoon {
   background-color: #1d222c;
   width: 100vw;
@@ -398,6 +417,25 @@ body {
   margin-bottom: 2rem;
 }
 
+.non-btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.non-btn:hover, .non-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: none;
+  outline: none;
+}
+
+.non-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .heading-1 {
   font-family: "PT Serif", serif;
   font-weight: 300;
@@ -459,6 +497,15 @@ body {
   position: relative;
 }
 
+.storyhead__beans {
+  position: absolute;
+  max-width: 20rem;
+  width: 12%;
+  bottom: -4rem;
+  left: 0;
+  z-index: 5;
+}
+
 .storyhead__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -475,6 +522,15 @@ body {
   width: 50%;
   padding-left: 6vw;
   padding-right: 6vw;
+  position: relative;
+}
+
+.storyhead__bean4-2 {
+  position: absolute;
+  max-width: 9rem;
+  width: 13%;
+  top: -4rem;
+  left: 3rem;
 }
 
 .storyhead__imgbox {
@@ -485,6 +541,15 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+  position: relative;
+}
+
+.storyhead__bean4 {
+  position: absolute;
+  max-width: 20rem;
+  width: 22%;
+  top: 9rem;
+  left: -9rem;
 }
 
 .storyhead__img {

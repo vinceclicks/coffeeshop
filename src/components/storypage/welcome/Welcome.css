@@ -512,7 +512,23 @@ body {
   text-align: center;
 }
 
+.welcome__beanhead {
+  position: relative;
+}
+
 .welcome__paragraph {
   max-width: 55rem;
+}
+
+.welcome__bean1 {
+  position: absolute;
+  top: -1.1rem;
+  left: -10rem;
+}
+
+.welcome__bean2 {
+  position: absolute;
+  top: -1rem;
+  right: -10rem;
 }
 /*# sourceMappingURL=Welcome.css.map */

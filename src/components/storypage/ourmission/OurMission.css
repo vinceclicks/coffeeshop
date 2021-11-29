@@ -198,6 +198,25 @@ body {
   margin-bottom: 2rem;
 }
 
+.non-btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.non-btn:hover, .non-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: none;
+  outline: none;
+}
+
+.non-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .comingsoon {
   background-color: #1d222c;
   width: 100vw;
@@ -398,6 +417,25 @@ body {
   margin-bottom: 2rem;
 }
 
+.non-btn {
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.non-btn:hover, .non-btn:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border: none;
+  outline: none;
+}
+
+.non-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 .heading-1 {
   font-family: "PT Serif", serif;
   font-weight: 300;
@@ -453,7 +491,7 @@ body {
 
 .ourmission {
   background-color: #1d222c;
-  padding: 0 6vw;
+  padding: 0 7vw 0 6vw;
   width: 100vw;
 }
 
@@ -481,9 +519,18 @@ body {
   z-index: 2;
   padding: 6rem 7rem;
   margin-left: -15rem;
+  position: relative;
 }
 
 .ourmission__texthead {
   padding-bottom: 2rem;
+}
+
+.ourmission__bean {
+  position: absolute;
+  max-width: 20rem;
+  width: 25%;
+  top: -7rem;
+  right: -7rem;
 }
 /*# sourceMappingURL=OurMission.css.map */

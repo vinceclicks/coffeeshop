@@ -1,0 +1,19 @@
+@import "../../assets/index.scss";
+@import "../../assets/typography.scss";
+
+.shop {
+    background-color: $color-primary;
+    width: 100vw;
+    padding-top: 13.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__sorter {
+    }
+
+    &__products {
+        display: flex;
+    }
+}

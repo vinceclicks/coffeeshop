@@ -528,7 +528,7 @@ body {
 }
 
 .testimonials__text {
-  color: #1d222c;
+  color: #1d222c !important;
 }
 
 .testimonials__quote {
@@ -574,7 +574,7 @@ body {
 }
 
 .testimonials__paragraph {
-  color: rgba(29, 34, 44, 0.9);
+  color: rgba(29, 34, 44, 0.9) !important;
 }
 
 .testimonials__buttonbox {

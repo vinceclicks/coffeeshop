@@ -59,7 +59,7 @@ class Navbar extends Component {
                 <nav className={`navigation ${this.state.isNavOpen ? "navigation__navopen" : ""}`}>
                     <ul className="navigation__list">
                         <li onClick={this.toggleNav} className="navigation__item ">
-                            <NavLink to="/coffeeshop/home" className="navigation__link">
+                            <NavLink to="/coffeeshop" className="navigation__link">
                                 Home
                             </NavLink>
                         </li>

@@ -12,11 +12,9 @@
     }
 
     &__img {
-        width: 77%;
-        position: absolute;
-        top: -20%;
-        left: 50%;
-        transform: translateX(-48%);
+        width: 100%;
+        max-width: 42rem;
+        margin: 0 auto;
     }
 
     &__infocontainer {

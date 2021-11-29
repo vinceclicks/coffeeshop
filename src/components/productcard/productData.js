@@ -1,15 +1,15 @@
-import CoffeeBlue from "../../../assets/coffeeblue.png";
-import CoffeePurple from "../../../assets/coffeepurple.png";
-import CoffeeOrange from "../../../assets/coffeeorange.png";
+import CoffeeBlue from "../../assets/coffeeblue.png";
+import CoffeePurple from "../../assets/coffeepurple.png";
+import CoffeeOrange from "../../assets/coffeeorange.png";
 
-export const testimonialData = [
+const ProductData = [
     {
         id: 0,
         name: "Green Americana",
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 22.99,
         img: CoffeeBlue,
-        type: decaf,
+        type: "decaf",
     },
     {
         id: 1,
@@ -17,7 +17,7 @@ export const testimonialData = [
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 29.99,
         img: CoffeePurple,
-        type: blend,
+        type: "blend",
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ export const testimonialData = [
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 25.99,
         img: CoffeeOrange,
-        type: espresso,
+        type: "espresso",
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ export const testimonialData = [
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 22.99,
         img: CoffeeBlue,
-        type: light,
+        type: "light",
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ export const testimonialData = [
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 24.99,
         img: CoffeeOrange,
-        type: espresso,
+        type: "espresso",
     },
     {
         id: 5,
@@ -49,7 +49,7 @@ export const testimonialData = [
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 26.99,
         img: CoffeePurple,
-        type: blend,
+        type: "blend",
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ export const testimonialData = [
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 24.99,
         img: CoffeeBlue,
-        type: light,
+        type: "light",
     },
     {
         id: 7,
@@ -65,7 +65,7 @@ export const testimonialData = [
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 29.99,
         img: CoffeePurple,
-        type: blend,
+        type: "blend",
     },
     {
         id: 8,
@@ -73,6 +73,8 @@ export const testimonialData = [
         quote: "Serving the best coffee in town. Every one likes coffee",
         price: 22.99,
         img: CoffeeOrange,
-        type: decaf,
+        type: "decaf",
     },
 ];
+
+export default ProductData;

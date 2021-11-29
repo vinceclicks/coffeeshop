@@ -26,7 +26,8 @@
     }
 
     &__nav {
-        cursor: pointer; //WHY IS THIS NOT WORKING
+        cursor: pointer;
+        backface-visibility: hidden;
     }
 
     &__checkbox {

@@ -5,9 +5,7 @@
     margin-top: 15rem;
     margin-bottom: 5rem;
     position: relative;
-    flex: 0 1 30%;
-
-    //media query to change percentage of screen real estate at different screen sizes
+    flex: 1 0 30%;
 
     &:not(:last-child) {
         margin-right: 4rem;
@@ -44,5 +42,29 @@
     &__finalbox {
         display: flex;
         justify-content: space-between;
+    }
+
+    &__img3 {
+        filter: hue-rotate(300deg);
+    }
+
+    &__img4 {
+        filter: hue-rotate(180deg);
+    }
+
+    &__img5 {
+        filter: hue-rotate(430deg);
+    }
+
+    &__img6 {
+        filter: hue-rotate(330deg);
+    }
+
+    &__img7 {
+        filter: hue-rotate(130deg);
+    }
+
+    &__img8 {
+        filter: hue-rotate(90deg);
     }
 }

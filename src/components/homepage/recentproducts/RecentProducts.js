@@ -26,9 +26,9 @@ const RecentProducts = () => {
                     </div>
                 </div>
                 <div className="recentproducts__productsbox">
-                    <ProductCard name="Green Americana" image={CoffeeBlue} />
-                    <ProductCard name="Ethiopian Aroma" image={CoffeePurple} />
-                    <ProductCard name="Double Espresso" image={CoffeeOrange} />
+                    <ProductCard name="Green Americana" image={CoffeeBlue} price="22.99" />
+                    <ProductCard name="Ethiopian Aroma" image={CoffeePurple} price="29.99" />
+                    <ProductCard name="Double Espresso" image={CoffeeOrange} price="25.99" />
                 </div>
             </div>
         </section>

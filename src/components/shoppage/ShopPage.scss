@@ -4,16 +4,26 @@
 .shop {
     background-color: $color-primary;
     width: 100vw;
-    padding-top: 13.1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: $page-padding;
+
+    &__shopbox {
+        padding-top: 13.1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__shophead {
+        padding: 8rem 0 6rem 0;
+    }
 
     &__sorter {
+        padding-bottom: 5rem;
     }
 
     &__products {
         display: flex;
+        flex-wrap: wrap;
     }
 }

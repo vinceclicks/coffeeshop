@@ -1,5 +1,6 @@
 import React from "react";
 import "./OurStory.scss";
+import { Link } from "react-router-dom";
 import { ReactComponent as RightArrow } from "../../../assets/r-arr.svg";
 import BeanFour from "../../../assets/bean4.png";
 import BeanLeafTwo from "../../../assets/beanleaf2.png";
@@ -15,9 +16,9 @@ const OurStory = () => {
                         Bringing people together is at the heart of who we are, and in the spirit of New York City, our
                         shops embrace all who enter its doors.
                     </p>
-                    <a href="#" className="btn-primary">
+                    <Link to="/coffeeshop/story" className="btn-primary">
                         Full Story &nbsp; <RightArrow className="btn-symbol btn-symbol-arr" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="ourstory__imgbox">
                     <div className="ourstory__img">

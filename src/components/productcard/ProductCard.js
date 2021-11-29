@@ -1,12 +1,11 @@
 import React from "react";
 import "./ProductCard.scss";
 import { ReactComponent as RightArrow } from "../../assets/r-arr.svg";
-import { ReactComponent as CoffeeBlue } from "../../assets/coffeeblue.svg";
 
 const ProductCard = (props) => {
     return (
         <div className="productcard">
-            <CoffeeBlue className="productcard__img" />
+            <img src={props.image} alt="coffee" className="productcard__img" />
             <div className="productcard__infocontainer">
                 <div className="productcard__textbox">
                     <h3 className="heading-3">{props.name}</h3>

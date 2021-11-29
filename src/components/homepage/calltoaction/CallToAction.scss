@@ -48,13 +48,13 @@
             border: none;
             outline: none;
             &::placeholder {
-                color: #fff;
+                color: rgba(255, 255, 255, 0.5);
                 font-size: 1.7rem;
             }
         }
 
         &::placeholder {
-            color: #eee;
+            color: rgba(238, 238, 238, 0.5);
             font-size: 1.5rem;
         }
     }

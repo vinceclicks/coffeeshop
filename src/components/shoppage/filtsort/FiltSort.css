@@ -472,7 +472,6 @@ body {
   font-size: 2rem;
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 1rem;
 }
 
 .paragraph {
@@ -489,70 +488,41 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.storyhead {
-  background-color: #1d222c;
-  height: calc(50vw + 13.1rem);
-  width: 100vw;
-  padding-top: 13.1rem;
-  position: relative;
-}
-
-.storyhead__beans {
-  position: absolute;
-  max-width: 20rem;
-  width: 12%;
-  bottom: -4rem;
-  left: 0;
-  z-index: 5;
-}
-
-.storyhead__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-}
-
-.storyhead__textbox {
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  width: 50%;
-  padding-left: 6vw;
-  padding-right: 6vw;
-  position: relative;
-}
-
-.storyhead__bean4-2 {
-  position: absolute;
-  max-width: 9rem;
-  width: 13%;
-  top: -4rem;
-  left: 3rem;
-}
-
-.storyhead__imgbox {
-  width: 65%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
-  position: relative;
-}
-
-.storyhead__bean4 {
-  position: absolute;
-  max-width: 20rem;
-  width: 22%;
-  top: 9rem;
-  left: -9rem;
-}
-
-.storyhead__img {
+.filtsort {
+  background-color: #252a35;
+  margin-bottom: 5rem;
   width: 100%;
+  padding: 2rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-/*# sourceMappingURL=StoryHead.css.map */
+
+.filtsort__filterbox {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (max-content)[5];
+      grid-template-columns: repeat(5, -webkit-max-content);
+      grid-template-columns: repeat(5, max-content);
+  grid-column-gap: 4rem;
+}
+
+.filtsort__filteritem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #252a35;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.filtsort__active {
+  color: #f2c56d !important;
+}
+/*# sourceMappingURL=FiltSort.css.map */

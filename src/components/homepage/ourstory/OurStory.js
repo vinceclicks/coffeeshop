@@ -10,7 +10,7 @@ const OurStory = () => {
         <section className="ourstory">
             <div className="ourstory__box">
                 <div className="ourstory__textbox">
-                    <h4 className="heading-4">Our Story</h4>
+                    <h4 className="heading-4 ourstory__head">Our Story</h4>
                     <h2 className="heading-2">Roasters Community Driven Always Fresh</h2>
                     <p className="paragraph">
                         Bringing people together is at the heart of who we are, and in the spirit of New York City, our

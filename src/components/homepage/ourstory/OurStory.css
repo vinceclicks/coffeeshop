@@ -470,9 +470,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 2rem;
-  color: #f2c56d;
+  color: #fff;
   text-transform: uppercase;
-  margin-bottom: 1rem;
 }
 
 .paragraph {
@@ -507,6 +506,11 @@ body {
 .ourstory__textbox {
   width: 50%;
   padding-right: 10vw;
+}
+
+.ourstory__head {
+  color: #f2c56d !important;
+  margin-bottom: 1rem;
 }
 
 .ourstory__textbox p {

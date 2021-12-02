@@ -1,0 +1,30 @@
+@import "../../../assets/index.scss";
+@import "../../../assets/typography.scss";
+
+.filtsort {
+    background-color: $color-primary-light;
+    margin-bottom: 5rem;
+    width: 100%;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+
+    &__filterbox {
+        display: grid;
+        grid-template-columns: repeat(5, max-content);
+        grid-column-gap: 4rem;
+    }
+
+    &__filteritem {
+        display: flex;
+        align-self: center;
+        background-color: $color-primary-light;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__active {
+        color: $color-secondary !important;
+    }
+}

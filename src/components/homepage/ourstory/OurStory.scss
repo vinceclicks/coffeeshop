@@ -18,6 +18,11 @@
         padding-right: 10vw;
     }
 
+    &__head {
+        color: $color-secondary !important;
+        margin-bottom: 1rem;
+    }
+
     &__textbox p {
         width: 90%;
         margin-bottom: 5rem;

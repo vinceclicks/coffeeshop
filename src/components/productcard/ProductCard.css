@@ -470,7 +470,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 2rem;
-  color: #f2c56d;
+  color: #fff;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -503,12 +503,9 @@ body {
 }
 
 .productcard__img {
-  width: 77%;
-  position: absolute;
-  top: -20%;
-  left: 50%;
-  -webkit-transform: translateX(-48%);
-          transform: translateX(-48%);
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
 }
 
 .productcard__infocontainer {

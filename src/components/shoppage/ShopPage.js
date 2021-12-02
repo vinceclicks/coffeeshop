@@ -28,16 +28,20 @@ const ShopPage = () => {
                 return originalData;
             }
         });
-        setData(filtered);
-        setDropdownPick({ value: "default" });
-    }, [activeFilt]);
-
-    // useEffect(() => {
-    //     const newarr = data.slice();
-    //     const sortedData = newarr.sort((a, b) => b.price - a.price);
-    //     setData(sortedData);
-    // }, [dropdownPick]);
-    //TOO TIRED TO DO ALL THIS RIGHT TODAY
+        let sortedData;
+        if (dropdownPick.value === "price-lowtohigh") {
+            sortedData = filtered.sort((a, b) => {
+                return a.price - b.price;
+            });
+        } else if (dropdownPick.value === "price-hightolow") {
+            sortedData = filtered.sort((a, b) => {
+                return b.price - a.price;
+            });
+        } else if (dropdownPick.value === "default") {
+            sortedData = filtered;
+        }
+        setData(sortedData);
+    }, [activeFilt, dropdownPick]);
 
     return (
         <div className="shop">

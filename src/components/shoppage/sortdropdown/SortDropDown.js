@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../../assets/index.scss";
 import "../../../assets/typography.scss";
 import "./SortDropDown.scss";
